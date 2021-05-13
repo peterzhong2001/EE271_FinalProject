@@ -1,0 +1,51 @@
+module input_processing (A, B, out, clk);
+
+	input logic A, B, clk;
+	output logic [1:0] out;
+	// out[1] is player1, out[0] is player2
+	
+	enum {none, bpress, apress, hold} ps, ns;
+	
+	// Next state logic
+	always_comb begin
+		case(ps)
+			none: if (A & B) ns = none;
+					else if (A & (~B)) ns = bpress;
+					else if ((~A) & B) ns = apress;
+					else ns = hold;
+			bpress: if (A & B) ns = none;
+					else if (A & (~B)) ns = bpress;
+					else if ((~A) & B) ns = apress;
+					else ns = hold;
+			apress: if (A & B) ns = none;
+					else if (A & (~B)) ns = bpress;
+					else if ((~A) & B) ns = apress;
+					else ns = hold;
+			hold: if (A & B) ns = none;
+					else if (A & (~B)) ns = bpress;
+					else if ((~A) & B) ns = apress;
+					else ns = hold;
+		endcase
+	end
+	
+	// Output logic
+	always_comb begin
+		case (ps)
+			none: if (A & (~B)) out = 2'b01;
+					else if ((~A) & B) out = 2'b10;
+					else out = 2'b00;
+			bpress: if (A & (~B)) out = 2'b01;
+					  else if ((~A) & B) out = 2'b10;
+					  else out = 2'b00;
+			apress: if (~B) out = 2'b01;
+					  else out = 2'b00;
+			hold: if (~B) out = 2'b01;
+					else out = 2'b00;
+		endcase
+	end
+	
+	// DFFs
+	always_ff @(posedge clk) begin
+			ps <= ns;
+	end
+endmodule 

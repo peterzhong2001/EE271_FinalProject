@@ -1,0 +1,21 @@
+module bird_light (in, uplit, downlit, out);
+
+	input logic in, uplit, downlit;
+	output logic out;
+	
+	enum {off, lit, hold1, hold2} ps, ns;
+	
+	// next state logic
+	always_comb begin
+		case(ps)
+			off: if (in & downlit) ns = lit;
+				  else ns = off;
+			lit: if (in) ns = off;
+				  else ns = hold1;
+			hold1: if (in) ns = off;
+					 else (ns) = hold2;
+			hold2: ns = off;
+	
+	end
+	
+endmodule

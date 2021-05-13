@@ -1,0 +1,3 @@
+module clock_counter (clk_in, clk_out);
+
+endmodule 

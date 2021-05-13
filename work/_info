@@ -1,0 +1,686 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/UW/ee271labs/lab1
+vbird
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1614792422
+!i10b 1
+!s100 `3RnV7B?;eUGRz6kQOlK23
+IGSY@;[`1b;jh8@KM8T[WW0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 bird_sv_unit
+S1
+Z4 dD:/UW/ee271labs/lab8
+Z5 w1614731756
+Z6 8./bird.sv
+Z7 F./bird.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1614792422.000000
+Z10 !s107 ./bird.sv|
+Z11 !s90 -reportprogress|300|./bird.sv|
+!i113 1
+Z12 tCvgOpt 0
+vbird_light
+R0
+R1
+!i10b 1
+!s100 NN1XL9f3]VJlIPk>2^jj62
+IIK:`Bk@B`52]<fRD]7ONg3
+R2
+!s105 bird_light_sv_unit
+S1
+R4
+w1614724198
+8./bird_light.sv
+F./bird_light.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 ./bird_light.sv|
+!s90 -reportprogress|300|./bird_light.sv|
+!i113 1
+R12
+vbird_light_center
+R0
+Z13 !s110 1614792423
+!i10b 1
+!s100 ^lndCQaVNfLOMjACahLZ>3
+I>TA:z^O[0jBnT7=7aGb7X3
+R2
+!s105 bird_light_center_sv_unit
+S1
+R4
+w1614724203
+8./bird_light_center.sv
+F./bird_light_center.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z14 !s108 1614792423.000000
+!s107 ./bird_light_center.sv|
+!s90 -reportprogress|300|./bird_light_center.sv|
+!i113 1
+R12
+vbird_testbench
+R0
+R1
+!i10b 1
+!s100 Tf^=bke1^gZoeeY[_faNh1
+I_>`0gfD<k?3b<<6ob5T[P3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 32
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vclock_counter
+R0
+R13
+!i10b 1
+!s100 3Rc;2Fz7X02V@FU8igJcz0
+IFPL=C0BUaP=^Sz9cYmC4h0
+R2
+!s105 clock_counter_sv_unit
+S1
+R4
+w1614724326
+8./clock_counter.sv
+F./clock_counter.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R14
+!s107 ./clock_counter.sv|
+!s90 -reportprogress|300|./clock_counter.sv|
+!i113 1
+R12
+vclock_divider
+R0
+R1
+!i10b 1
+!s100 ;;cR1iFKl;SYA5AjF[83c3
+Ic]7KP2VdgN8VCEKP[BMEA0
+R2
+!s105 clock_divider_sv_unit
+S1
+R4
+w1614229923
+8./clock_divider.sv
+F./clock_divider.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+!s107 ./clock_divider.sv|
+!s90 -reportprogress|300|./clock_divider.sv|
+!i113 1
+R12
+vcolumn_driver
+R0
+R13
+!i10b 1
+!s100 [?TgzF2nnd`1WD7Qh@Td?0
+IfQV:7@Z_EOT1z<EiWNRJe1
+R2
+Z15 !s105 column_driver_sv_unit
+S1
+R4
+w1614724347
+Z16 8./column_driver.sv
+Z17 F./column_driver.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R14
+Z18 !s107 ./column_driver.sv|
+Z19 !s90 -reportprogress|300|./column_driver.sv|
+!i113 1
+R12
+vcolumn_driver_testbench
+R0
+!s110 1614317934
+!i10b 1
+!s100 715fZ=L16d6[3`C5OG:bJ3
+IPM61DVg=c^ffKJOi;?j9?2
+R2
+R15
+S1
+R4
+w1614317484
+R16
+R17
+Z20 L0 63
+R8
+r1
+!s85 0
+31
+!s108 1614317934.000000
+R18
+R19
+!i113 1
+R12
+vD_FF_R
+R0
+R13
+!i10b 1
+!s100 GI]O<zG3OTT[`MFo4<lmM1
+IAGmNmG>^J]H@4ChhjAR2=2
+R2
+!s105 D_FF_R_sv_unit
+S1
+R4
+w1614641793
+8./D_FF_R.sv
+F./D_FF_R.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R14
+!s107 ./D_FF_R.sv|
+!s90 -reportprogress|300|./D_FF_R.sv|
+!i113 1
+R12
+n@d_@f@f_@r
+vDE1_SoC
+R0
+R1
+!i10b 1
+!s100 <]c3Zf4HGVjW]8?6JBHTS1
+IgRFYX>K<;kJT1nn57b5Wf3
+R2
+Z21 !s105 DE1_SoC_sv_unit
+S1
+R4
+Z22 w1614792411
+Z23 8./DE1_SoC.sv
+Z24 F./DE1_SoC.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+Z25 !s107 ./DE1_SoC.sv|
+Z26 !s90 -reportprogress|300|./DE1_SoC.sv|
+!i113 1
+R12
+n@d@e1_@so@c
+vDE1_SoC_testbench
+R0
+R1
+!i10b 1
+!s100 VF3CKe[C^CdlU[1zU`BZa3
+I1:cmTDF1Vf<9J9lU3md`k1
+R2
+R21
+S1
+R4
+R22
+R23
+R24
+L0 87
+R8
+r1
+!s85 0
+31
+R9
+R25
+R26
+!i113 1
+R12
+n@d@e1_@so@c_testbench
+vdifficulty_display
+R0
+!s110 1614792424
+!i10b 1
+!s100 >?6f_VHWEc5d2P4N8OmO72
+I8^ZGH4lfBU7gR_fSKg<2[0
+R2
+!s105 difficulty_display_sv_unit
+S1
+R4
+w1614725518
+8./difficulty_display.sv
+F./difficulty_display.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1614792424.000000
+!s107 ./difficulty_display.sv|
+!s90 -reportprogress|300|./difficulty_display.sv|
+!i113 1
+R12
+vinput_processing
+R0
+R13
+!i10b 1
+!s100 zKmIUFfF=aYg^IH516=^z1
+IOmOThU:OAh=XSQWE84ZOc1
+R2
+!s105 input_processing_sv_unit
+S1
+R4
+w1614290567
+8./input_processing.sv
+F./input_processing.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+!s107 ./input_processing.sv|
+!s90 -reportprogress|300|./input_processing.sv|
+!i113 1
+R12
+vLED_test
+R0
+R1
+!i10b 1
+!s100 8QIj0zo4RJ:A<TTi`4[L`0
+IG7X;L94V<FXA25hIA:zPV1
+R2
+Z27 !s105 LED_test_sv_unit
+S1
+R4
+Z28 w1614229904
+Z29 8./LED_test.sv
+Z30 F./LED_test.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+Z31 !s107 ./LED_test.sv|
+Z32 !s90 -reportprogress|300|./LED_test.sv|
+!i113 1
+R12
+n@l@e@d_test
+vLED_test_testbench
+R0
+R1
+!i10b 1
+!s100 H]j>6?glo;Tf:1ROoJ1zg3
+IO4mKNX6?0Z4@@AU0U46Ab0
+R2
+R27
+S1
+R4
+R28
+R29
+R30
+L0 60
+R8
+r1
+!s85 0
+31
+R9
+R31
+R32
+!i113 1
+R12
+n@l@e@d_test_testbench
+vLEDDriver
+R0
+R1
+!i10b 1
+!s100 JiAHBkK@6c_;:YN4[>j7<3
+ICW^9z;F45c1OgTmP7Ij6d3
+R2
+Z33 !s105 LEDDriver_sv_unit
+S1
+R4
+Z34 w1614229880
+Z35 8./LEDDriver.sv
+Z36 F./LEDDriver.sv
+L0 13
+R8
+r1
+!s85 0
+31
+R9
+Z37 !s107 ./LEDDriver.sv|
+Z38 !s90 -reportprogress|300|./LEDDriver.sv|
+!i113 1
+R12
+n@l@e@d@driver
+vLEDDriver_Test
+R0
+R1
+!i10b 1
+!s100 7d5<0Kb7WnMbAASRRbV<P3
+I24z]WBdkFVd33ESQ4Ae<Y3
+R2
+R33
+S1
+R4
+R34
+R35
+R36
+L0 34
+R8
+r1
+!s85 0
+31
+R9
+R37
+R38
+!i113 1
+R12
+n@l@e@d@driver_@test
+vLEDDriver_TestPhysical
+R0
+R1
+!i10b 1
+!s100 WjU?EdQdFmD<AcS828m012
+ISWgN:gM:a;Zh2KTzI;7192
+R2
+R33
+S1
+R4
+R34
+R35
+R36
+L0 71
+R8
+r1
+!s85 0
+31
+R9
+R37
+R38
+!i113 1
+R12
+n@l@e@d@driver_@test@physical
+vLFSR
+R0
+R13
+!i10b 1
+!s100 ?zH<5@OP]1RPgEK0IZhWa2
+IVKkaCPGcQLhAZ=CNi@T]l0
+R2
+!s105 LFSR_sv_unit
+S1
+R4
+w1614642771
+8./LFSR.sv
+F./LFSR.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R14
+!s107 ./LFSR.sv|
+!s90 -reportprogress|300|./LFSR.sv|
+!i113 1
+R12
+n@l@f@s@r
+vmux2_1
+R0
+Z39 !s110 1611099505
+!i10b 1
+!s100 db@k@fnga:kY6M:UDM?iV1
+IJ>QNS`gdkcliNLo;gQk_83
+R2
+Z40 !s105 mux2_1_sv_unit
+S1
+Z41 dD:/UW/ee271labs/lab3
+Z42 w1609802794
+Z43 8./mux2_1.sv
+Z44 F./mux2_1.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z45 !s108 1611099504.000000
+Z46 !s107 ./mux2_1.sv|
+Z47 !s90 -reportprogress|300|./mux2_1.sv|
+!i113 1
+R12
+vmux2_1_testbench
+R0
+R39
+!i10b 1
+!s100 AaPWH7@z6J3I9g7Ce@1ED1
+I;eMHfQ<@c56k5bMBE8Am71
+R2
+R40
+S1
+R41
+R42
+R43
+R44
+L0 8
+R8
+r1
+!s85 0
+31
+R45
+R46
+R47
+!i113 1
+R12
+vpattern_generator
+R0
+R13
+!i10b 1
+!s100 UWn`fCVK7`e4UjmI5WdVa3
+I0X6@XIG`Ug1i0KH7UnoTQ2
+R2
+Z48 !s105 pattern_generator_sv_unit
+S1
+R4
+Z49 w1614730959
+Z50 8./pattern_generator.sv
+Z51 F./pattern_generator.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R14
+Z52 !s107 ./pattern_generator.sv|
+Z53 !s90 -reportprogress|300|./pattern_generator.sv|
+!i113 1
+R12
+vpattern_generator_testbench
+R0
+R13
+!i10b 1
+!s100 ?f7>nI7gcH;QK?hJkJTG<2
+IXB6aA`c^TJd<46PedoTH[0
+R2
+R48
+S1
+R4
+R49
+R50
+R51
+L0 50
+R8
+r1
+!s85 0
+31
+R14
+R52
+R53
+!i113 1
+R12
+vpillar
+R0
+Z54 !s110 1614643355
+!i10b 1
+!s100 zE9b[3]F9HD48MK]?NgYl1
+I>F_F@iIEK7LKhin:5=QDZ0
+R2
+Z55 !s105 pillar_sv_unit
+S1
+R4
+Z56 w1614320168
+Z57 8./pillar.sv
+Z58 F./pillar.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z59 !s108 1614643355.000000
+Z60 !s107 ./pillar.sv|
+Z61 !s90 -reportprogress|300|./pillar.sv|
+!i113 1
+R12
+vpillar_testbench
+R0
+R54
+!i10b 1
+!s100 AkiUZ2l5M5WjI@Gc?LOS12
+IdYin7WJl:>dOzjA[:R7]Y1
+R2
+R55
+S1
+R4
+R56
+R57
+R58
+R20
+R8
+r1
+!s85 0
+31
+R59
+R60
+R61
+!i113 1
+R12
+vscore_keeper
+R0
+R13
+!i10b 1
+!s100 Hl_ae2TD5In_F_G82e67e2
+I6Q3ogzY``K]OYhkK]jCP:3
+R2
+Z62 !s105 score_keeper_sv_unit
+S1
+R4
+Z63 w1614732322
+Z64 8./score_keeper.sv
+Z65 F./score_keeper.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R14
+Z66 !s107 ./score_keeper.sv|
+Z67 !s90 -reportprogress|300|./score_keeper.sv|
+!i113 1
+R12
+vscore_keeper_testbench
+R0
+R13
+!i10b 1
+!s100 @GMZ^cW>^fWYdM:]b4?AG0
+ID2C0LUc74239PR@dTnHb53
+R2
+R62
+S1
+R4
+R63
+R64
+R65
+L0 45
+R8
+r1
+!s85 0
+31
+R14
+R66
+R67
+!i113 1
+R12
+vscreen_controller
+R0
+R13
+!i10b 1
+!s100 Dk;j?C<W<VRe8kb`U7PUC0
+Iof0h[NL:<Rnn0Q5Z7==c81
+R2
+!s105 screen_controller_sv_unit
+S1
+R4
+w1614727837
+8./screen_controller.sv
+F./screen_controller.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R14
+!s107 ./screen_controller.sv|
+!s90 -reportprogress|300|./screen_controller.sv|
+!i113 1
+R12
+vsingle_hex_driver
+R0
+R13
+!i10b 1
+!s100 DPZiGDb[o>cMlh=A2k;S50
+I:o:<>oijbDD75oD>dU[i_2
+R2
+!s105 single_hex_driver_sv_unit
+S1
+R4
+w1614293472
+8./single_hex_driver.sv
+F./single_hex_driver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R14
+!s107 ./single_hex_driver.sv|
+!s90 -reportprogress|300|./single_hex_driver.sv|
+!i113 1
+R12
