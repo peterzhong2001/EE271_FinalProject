@@ -1,8 +1,0 @@
-module pattern_generator (out, clk, reset);
-
-	input logic clk, reset;
-	output logic out;
-	
-	
-
-endmodule 

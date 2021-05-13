@@ -1,3 +1,0 @@
- module single_hex_driver (incr, carryin, carryout, hexout, reset);
- 
- endmodule 

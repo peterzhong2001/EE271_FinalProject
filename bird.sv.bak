@@ -1,3 +1,0 @@
-module bird (lights, clk, reset);
-
-endmodule 
