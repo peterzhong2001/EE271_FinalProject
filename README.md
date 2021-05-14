@@ -30,4 +30,4 @@ can be flipped any time during the game, and the difficulty will adjust accordin
 display the location of the pipes. The “Game over” letters will be displayed on screen if the bird
 collides with the pipe or goes out of either the upper or lower bound.
 - **HEX2, HEX1, HEX0: Current score.** Successfully flying past one pipe will add one to the score. The score display will be a maximum of 999 before resetting to 000. The score will reset to zero at the start of a new game.
-- **HEX5: Difficulty level** See a detailed description of the difficulties in the “Controls” section above.
+- **HEX5: Difficulty level.** See a detailed description of the difficulties in the “Controls” section above.
